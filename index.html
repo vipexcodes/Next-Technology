@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<meta charset="UTF-8">
+				<meta name="viewpoint"
+				content="width=device-width,initial-scale=1.0"/>
+				<title>Next Website</title>
+				<link rel="stylesheet" href="styles.css"></link>
+				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+			<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+			
+		<!--Navbar Section -->
+		
+				<nav class="navbar">
+							<div class="navbar__container">
+									 <a href="/"id="navbar__logo"><i class="fas fa-gem"></i> NEXT</a>
+										<div class="navbar__toggle"id="mobile-menu">
+													<span class="bar"></span>
+													<span class="bar"></span>
+													<span class="bar"></span>
+										</div>
+										<ul class="navbar__menu">
+												<li class="navbar__item">
+														<a href="/" class="navbar__links"><i class="fas fa-home"></i> Home</a>
+												</li>
+												<li class="navbar__item">
+														<a href="/tech.html" class="navbar__links"><i class="fas fa-microchip"></i> Tech</a>
+												</li>
+												<li class="navbar__item">
+														<a href="/" class="navbar__links"><i class="fas fa-store"></i> Products</a>
+												</li>
+												<li class="navbar__btn">
+														<a href="/" class="button">Sign Up</a>
+												</li>
+										</ul>
+							</div>			
+				</nav>
+				
+				<!-- Hero Section -->
+				
+				<div class="main">
+						<div class="main__container"">
+								<div class="main__content">
+										<h1>NEXT GENERATION</h1>
+										<h2>TECHNOLOGY</h2>
+									<p>See What Makes Us Different.</p>
+									<button class="main__btn"><a href="/">Get Started</a></button>
+								</div>
+								<div class="main__img--comtainer">
+											<img src="images/pic1.svg" alt="pic" id="main__img"/>
+								</div>
+						</div>
+				</div>
+				
+				<!-- SERVICES SECTON -->
+				<div class="services">
+							<h1>See What The Hype Is About</h1>
+							<div class="services__container">
+										<div class="services__card">
+													<h2>Experience Bliss</h2>
+													<p>AI Powered Technology</p>
+													<button>Get Started</button>
+										</div>
+				 	<div class="services__container">
+										<div class="services__card">
+													<h2>Are You Ready?</h2>
+													<p>Take The Leap</p>
+													<button>Get Started</button>
+										</div>
+							</div>
+				</div>
+				<script src="app.js"></script>
+				<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.1/firebase-analytics.js";
+  
+  const firebaseConfig = {
+    apiKey: "AIzaSyCUrwbczQADE2HZzuILjQbAo3wxOD23I04",
+    authDomain: "next-technology-2617a.firebaseapp.com",
+    projectId: "next-technology-2617a",
+    storageBucket: "next-technology-2617a.appspot.com",
+    messagingSenderId: "261738969531",
+    appId: "1:261738969531:web:210a3c48234cccadacec9e",
+    measurementId: "G-W01HF3GDLC"
+  };
+  
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>
